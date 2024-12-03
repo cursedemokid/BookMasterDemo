@@ -59,6 +59,9 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="View\Windows\AddEditCustomerWindow.xaml.cs">
+      <DependentUpon>AddEditCustomerWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Windows\ManageCustomersWindow.xaml.cs">
       <DependentUpon>ManageCustomersWindow.xaml</DependentUpon>
     </Compile>
@@ -108,6 +111,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="View\Pages\BrowseCatalogPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Windows\AddEditCustomerWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
