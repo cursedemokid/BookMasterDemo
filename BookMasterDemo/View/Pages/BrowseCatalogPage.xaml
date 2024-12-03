@@ -46,9 +46,9 @@
             
             <Image Grid.ColumnSpan="3" Source="/Resources/logo.png" />
 
-            <TextBlock Grid.Row="2" Grid.Column="0" Text="Title" VerticalAlignment="Center"/>
-            <TextBlock Grid.Row="4" Grid.Column="0" Text="Author" VerticalAlignment="Center"/>
-            <TextBlock Grid.Row="6" Grid.Column="0" Text="Subject" VerticalAlignment="Center"/>
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="Title"/>
+            <TextBlock Grid.Row="4" Grid.Column="0" Text="Author"/>
+            <TextBlock Grid.Row="6" Grid.Column="0" Text="Subject"/>
 
             <TextBox Grid.Row="2" Grid.Column="2"/>
             <TextBox Grid.Row="4" Grid.Column="2"/>
@@ -92,9 +92,9 @@
                     <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
                 
-             <TextBlock Grid.Row="1" Text="Page" VerticalAlignment="Center"/>
-                <TextBlock Grid.Row="1" Grid.Column="8" Text="of 4" VerticalAlignment="Center"/>
-             <TextBlock Grid.Row="1" Grid.Column="10" Text="153 Books found" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+             <TextBlock Grid.Row="1" Text="Page"/>
+                <TextBlock Grid.Row="1" Grid.Column="8" Text="of 4"/>
+             <TextBlock Grid.Row="1" Grid.Column="10" Text="153 Books found"/>
 
                 <TextBox Grid.Row="1" Grid.Column="4" Text="1"/>
 
