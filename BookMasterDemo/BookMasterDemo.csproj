@@ -61,6 +61,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="View\Pages\BrowseCatalogPage.xaml.cs">
+      <DependentUpon>BrowseCatalogPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Windows\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
@@ -92,15 +95,20 @@
   <ItemGroup>
     <Folder Include="AppData\" />
     <Folder Include="Model\" />
-    <Folder Include="Resources\" />
     <Folder Include="Styles\" />
-    <Folder Include="View\Pages\" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="View\Pages\BrowseCatalogPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Windows\MainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
